@@ -1,0 +1,26 @@
+.div{
+    display: grid;
+    padding : 10px;
+    border : 1px solid black;
+    grid-template-columns: 20% auto;
+    background-color: #333;
+    
+    /* justify-content: center; */
+}
+.logo{
+    width :100px;
+    height: 50px;
+    align-items: center;
+    mix-blend-mode:multiply;
+}
+
+.navBar > ul{
+    list-style-type: none;
+    display : flex;
+    justify-content: flex-end;
+    align-self: center;
+}
+.li{
+    padding: 5px;
+    align-items: center;
+}
