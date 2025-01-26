@@ -4,6 +4,8 @@ function App(){
   return (
     <div>
       <Navbar/>
+      <p>Pavan test</p>
+      <p>Pavan test 2</p>
     </div>
   )
 };
