@@ -5,6 +5,7 @@ function App(){
     <div>
       <Navbar/>
       <p>Pavan test</p>
+      <p>Pavan test 2</p>
     </div>
   )
 };
