@@ -1,12 +1,19 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Layout from './Pages/Layout';
+import Home from './Pages/Home';
+import About from './Pages/About';
 
-import Navbar from './components/Navbar';
 function App(){
   return (
-    <div>
-      <Navbar/>
-      <p>Pavan test</p>
-      <p>Pavan test 2</p>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Layout/>}>
+        <Route index element={<Home/>}/>
+        <Route path='/about' element={<About/>}/>
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 };
 

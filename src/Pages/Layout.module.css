@@ -1,0 +1,12 @@
+.li{
+    padding: 5px;
+    margin: 0px 5px;
+}
+.navlink{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.active{
+    color: black;
+}
